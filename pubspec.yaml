@@ -1,7 +1,7 @@
 name: crop_multiple_image
-description: "A new Flutter package project."
+description: "A new Flutter package for cropping image."
 version: 0.0.1
-homepage:
+homepage: https://github.com/mbshuvo325/crop_multiple_image
 
 environment:
   sdk: '>=3.3.4 <4.0.0'
@@ -21,6 +21,13 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.lykhonis.imagecrop
+        pluginClass: ImageCropPlugin
+      ios:
+        pluginClass: ImageCropPlugin
 
   # To add assets to your package, add an assets section, like this:
   # assets:
