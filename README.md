@@ -37,3 +37,7 @@ const like = 'sample';
 TODO: Tell users more about the package: where to find more information, how to
 contribute to the package, how to file issues, what response they can expect
 from the package authors, and more.
+
+Helper link
+1. https://github.com/tejbhansahu/multi_image_crop
+2. https://github.com/tsafundzic/image_crop
